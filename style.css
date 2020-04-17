@@ -1,0 +1,162 @@
+body {
+  height 100%;
+  font-size: 22px;
+  font-family: arial;
+  margin: 0;
+  padding: 0;
+  color: #5f6368;
+}
+
+a {
+ text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+#navbar {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin: 20px 15px;
+  color: rgba(0, 0, 0, .8);
+}
+
+#nav1, #nav2 {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  width: 50%;
+  padding-right: 25px;
+}
+
+#nav1 {
+  justify-content: flex-start;
+  align-items:center;
+}
+
+#nav2 {
+  justify-content: flex-end;
+  align-items: center;
+}
+
+#profile {
+  height: 2.5rem;
+  width: 2.5rem;
+  border-radius: 50%;
+}
+
+li {
+  padding: 10px;
+}
+
+li:hover {
+  text-decoration: underline;
+}
+
+#main {
+  width: 100%;
+}
+
+#logo img {
+  width: 500px;
+  margin: 0 auto;
+  display: block;
+  padding-top: 60px;
+}
+
+#searchbar {
+  position: relative;
+  top: 20px;
+  display: flex;
+  width: 500px;
+  margin: 0 auto;
+  border-radius: 30px;
+  border: 1px solid #e4e4e4;
+  height: 3rem;
+  padding: 0 20px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#searchbar:hover {
+  box-shadow: 0px 0px 2px 2px #e4e4e4;
+}
+
+#search-wrap {
+  height:3.1rem;
+}
+
+input[type=text] {
+  width: 80%;
+  border: 0;
+  height: 2.5rem;
+  margin-left: -30px;
+  font-size: 1.5rem;
+}
+
+input[type=text]:focus {
+  outline: none;
+}
+
+#btn-wrap {
+  height: 40px;
+  width: 300px;
+  display: flex;
+  margin: 0 auto;
+  flex-direction: row;
+  margin-top: 60px;
+  justify-content: space-between;
+}
+
+#btn-wrap > button {
+  background-color: #f2f2f2;
+  font-size: 1rem;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  color: #5f6368;
+  outline: none;
+}
+
+#btn-wrap > button:hover {
+  border: 1px solid #e4e4e4;
+  color: black;
+  outline: none;
+}
+
+#thankyou {
+  width: 100%;
+  margin: 40px auto;
+  text-align: center;
+}
+
+#footer {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  background-color: #f2f2f2;
+  border: 1px solid #e4e4e4;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  font-size: 1rem;
+  padding-right: 20px;
+}
+
+#foot1, #foot2 {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+}
+
+#foot1 {
+  justify-content: flex-start;
+}
+
+#foot2 {
+  justify-content: flex-end;
+}
